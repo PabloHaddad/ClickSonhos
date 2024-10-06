@@ -1,0 +1,33 @@
+body {
+background-color: beige;
+color: black;
+font-family: "PT Serif", serif;
+margin: 0px;
+height: 700px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+button {
+    background-color: whitesmoke;
+    color: black;
+    font-family: "PT Serif", serif;
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display: block;
+}
+
+main {
+    text-align: center;
+    max-width: 90%;
+}
+
+img {
+    max-width: 90%;
+}
